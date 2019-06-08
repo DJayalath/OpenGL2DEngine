@@ -29,5 +29,5 @@ public:
 
 private:
 
-	SpriteRenderer* Renderer;
+	SpriteRenderer* Renderer = nullptr;
 };

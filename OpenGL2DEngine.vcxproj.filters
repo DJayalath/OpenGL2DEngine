@@ -10,6 +10,9 @@
     <Filter Include="Utility">
       <UniqueIdentifier>{4bb57237-e4e7-4ecb-967c-10877a1afea1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0bad3cd2-59aa-48b5-8233-5d80cb625fec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="include\glad\glad.c">
       <Filter>Utility</Filter>
     </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -44,5 +50,16 @@
     <ClInclude Include="ResourceManager.h">
       <Filter>Utility</Filter>
     </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SpriteShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="SpriteShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@ enum GameState {
 	GAME_WIN
 };
 
+class SpriteRenderer;
 class Game
 {
 public:
@@ -25,4 +26,8 @@ public:
 	void ProcessInput(GLfloat dt);
 	void Update(GLfloat dt);
 	void Render();
+
+private:
+
+	SpriteRenderer* Renderer;
 };

@@ -2,6 +2,9 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include "GameLevel.h"
+
+#include <vector>
 
 enum GameState {
 	GAME_ACTIVE,
@@ -30,4 +33,6 @@ public:
 private:
 
 	SpriteRenderer* Renderer = nullptr;
+	std::vector<GameLevel> Levels;
+	GLuint                 Level;
 };
